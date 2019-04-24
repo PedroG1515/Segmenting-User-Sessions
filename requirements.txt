@@ -1,5 +1,4 @@
 click
 pandas
 nltk
-math
 gensim
