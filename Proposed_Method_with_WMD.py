@@ -5,7 +5,7 @@ import time
 import utils
 from nltk.tokenize import RegexpTokenizer
 import gensim
-
+pd.options.mode.chained_assignment = None
 
 class Context:
     sessionNgrams = []
