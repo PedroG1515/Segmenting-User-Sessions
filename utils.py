@@ -5,6 +5,7 @@ import re
 from urllib.parse import urlparse
 import re
 from nltk.tokenize import RegexpTokenizer
+s = set(['www', 'com'])
 
 
 def distanciaLimite(x0, y0):
