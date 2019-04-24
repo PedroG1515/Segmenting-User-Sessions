@@ -1,5 +1,5 @@
 # Segmenting User Sessions in Search Engine Query Logs Leveraging Word Embeddings
-Reproducibility package for the TPDL paper "Predicting Search Satisfaction Metrics with Interleaved Comparisons"
+Reproducibility package for the TPDL paper "Segmenting User Sessions in Search Engine Query Logs Leveraging Word Embeddings"
 
 ### Setup
 
