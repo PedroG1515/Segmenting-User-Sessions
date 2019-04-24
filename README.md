@@ -11,9 +11,10 @@ pip install -r requirements.txt
 ```
 
 ### Models
+#Download
 ```
-wget https://ndownloader.figshare.com/files/14976677
-wget https://ndownloader.figshare.com/files/14977589
+https://figshare.com/articles/wiki_normal_bin_vectors_ngrams_npy/8036168
+https://figshare.com/articles/wiki_with_vectors_normalized_bin_vectors_ngrams_npy/8036102
 ```
 
 ### Run
