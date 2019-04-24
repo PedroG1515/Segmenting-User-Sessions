@@ -141,7 +141,7 @@ def process_data(lim_temp, lim_jac, lim_cosine, lim_wmd, lim_url, model, model_n
                             different_session(df, i, session_column, row_consulta_query, string1, row_consulta_query_words)
     exc_time = int(round((time.time() - start) * 1000))
     print("TIME: ", exc_time)
-    df.to_csv('out_7.csv', sep=';', encoding='utf-8')
+    df.to_csv('out.csv', sep=';', encoding='utf-8')
     click.secho("EVALUATION!", fg='green')
     N_true_shift = 0
     N_shift_correct = 0
