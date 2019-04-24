@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```
 
 ### Models
-#Download
+Download
 ```
 https://figshare.com/articles/wiki_normal_bin_vectors_ngrams_npy/8036168
 https://figshare.com/articles/wiki_with_vectors_normalized_bin_vectors_ngrams_npy/8036102
