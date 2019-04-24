@@ -5,13 +5,7 @@ import re
 from urllib.parse import urlparse
 import re
 from nltk.tokenize import RegexpTokenizer
-###Set###
-s = set(['www', 'com'])
-tokenizer = RegexpTokenizer(r'\w+')
-with open('stoplist.txt') as f:
-    content = f.readlines()
-stop_words = [x.strip() for x in content]
-#########
+
 
 def distanciaLimite(x0, y0):
     return math.sqrt((x0)**2+(y0)**2)
@@ -20,7 +14,6 @@ def filterString(string):
     return re.sub(r'\w+', sub, string)
 
 def extract_url_domain_name(url):
-    #FIXME: consider corner case URLs
     domain = urlparse(url).hostname
     return domain.split('.')[1]
 
@@ -64,29 +57,3 @@ def size_lcs(X, Y):
             else:
                 L[i][j] = max(L[i-1][j], L[i][j-1])
     return L[m][n]
-
-###GM#####
-def overlapping(string, ngramsArray):
-    if not ngramsArray and not string:
-        return 1
-    stringNgrams = get3grams(string)
-    length = len(stringNgrams)
-    return len(set(stringNgrams).intersection(set(ngramsArray)))/float(length)
-
-
-def get3grams(string, size=3):
-    string = string.strip()
-    limit = len(string) - size
-    ngrams = []
-    for i in range(0, limit+1):
-        ngrams.append(string[i:i+size])
-    return ngrams and ngrams or [string, ]
-
-def filterStopWords(string):
-    string2 = ""
-    word_tokens = tokenizer.tokenize(string)
-    for w in word_tokens:
-        if w not in stop_words:
-            string2 = string2 + w + " "
-    string2 = string2[:-1]
-    return string2
