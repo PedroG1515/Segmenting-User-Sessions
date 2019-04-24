@@ -1,4 +1,4 @@
-# Predicting-Search-Satisfaction-Metrics-with-Interleaved-Comparisons
+# Segmenting User Sessions in Search Engine Query Logs Leveraging Word Embeddings
 Reproducibility package for the TPDL paper "Predicting Search Satisfaction Metrics with Interleaved Comparisons"
 
 ### Setup
