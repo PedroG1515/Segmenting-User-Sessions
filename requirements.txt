@@ -3,3 +3,4 @@ pandas
 nltk
 gensim
 pyemd
+paramiko
