@@ -2,5 +2,5 @@ click
 pandas
 nltk
 gensim
-urlparse
+urllib
 re
