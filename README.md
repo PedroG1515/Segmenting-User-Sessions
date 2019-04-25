@@ -29,6 +29,6 @@ python Proposed_Method_with_WMD.py
 
 ### Authors
 
-- [Pedro Gomes](pedro.almeida.gomes@tecnico.ulisboa.pt)
+- [Pedro Gomes](mailto:pedro.almeida.gomes@tecnico.ulisboa.pt)
 - Luis Cruz
 - Bruno Martins
