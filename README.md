@@ -31,6 +31,18 @@ https://figshare.com/articles/wiki_with_vectors_normalized_bin_vectors_ngrams_np
 python Proposed_Method_with_WMD.py
 ```
 
+### BibTeX
+```
+@inproceedings{gomes2019segmenting,
+  title={Segmenting User Sessions in Search Engine Query Logs Leveraging Word Embeddings},
+  author={Gomes, Pedro and Martins, Bruno and Cruz, Lu{\'\i}s},
+  booktitle={International Conference on Theory and Practice of Digital Libraries},
+  pages={185--199},
+  year={2019},
+  organization={Springer}
+}
+```
+
 ### Authors
 
 - [Pedro Gomes](mailto:pedro.almeida.gomes@tecnico.ulisboa.pt)
